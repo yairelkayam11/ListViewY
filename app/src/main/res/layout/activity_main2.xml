@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="380dp"
+    android:layout_height="match_parent">
+
+
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="143dp"
+        android:layout_height="521dp">
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="148dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="232dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="150dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="150dp">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="92dp"
+            android:textSize="20dp"
+            android:layout_height="51dp"
+            android:text="X1 :" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="92dp"
+            android:layout_height="51dp" />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="92dp"
+            android:textSize="20dp"
+            android:layout_height="51dp"
+            android:text="d :" />
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="92dp"
+            android:layout_height="51dp" />
+
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="92dp"
+            android:textSize="20dp"
+            android:layout_height="51dp"
+            android:text="n :" />
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="92dp"
+            android:layout_height="51dp" />
+
+        <TextView
+            android:id="@+id/tv7"
+            android:layout_width="92dp"
+            android:textSize="20dp"
+            android:layout_height="51dp"
+            android:text="Sn :" />
+
+        <TextView
+            android:id="@+id/tv8"
+            android:layout_width="92dp"
+            android:layout_height="51dp" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="109dp"
+            android:onClick="yair1"
+            android:layout_height="wrap_content"
+            android:text="חזור למסך הבית" />
+    </LinearLayout>
+
+
+</LinearLayout>
